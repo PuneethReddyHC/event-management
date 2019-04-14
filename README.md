@@ -28,7 +28,7 @@ helps to register an users for on events conducted in college fests with simple 
 
 10>after importing successfully.
 
-11>open any browser and type http://localhost/event-management.
+11>open any browser and type http://localhost/event-management-master.
 
 12>first register and then login
 
