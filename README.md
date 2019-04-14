@@ -40,10 +40,10 @@ https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-pag
 https://github.com/PuneethReddyHC/online-shopping-system-advanced
 
 ## Screenshots
-![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshots/home.png)
-![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshots/events.png)
-![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshots/about.png)
-![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshots/events1.png)
-![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshots/login.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/blob/master/screenshots/home.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/blob/master/screenshots/events.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/blob/master/screenshots/about.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/blob/master/screenshots/events1.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/blob/master/screenshots/login.png)
 
 ##  If you like my project hit a star button
