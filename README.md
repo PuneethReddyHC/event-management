@@ -35,6 +35,15 @@ helps to register an users for on events conducted in college fests with simple 
 13>admin login details  Email=admin@gmail.com and Password=123456789.
 
 ## visit my other repository with different admin pages with below link
-https://github.com/PuneethReddyHC/event-management
+https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page
+
+https://github.com/PuneethReddyHC/online-shopping-system-advanced
+
+## Screenshots
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshot/home.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshot/events.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshot/about.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshot/footer.png)
+![Image of adduser](https://github.com/PuneethReddyHC/event-management/screenshot/login.png)
 
 ##  If you like my project hit a star button
