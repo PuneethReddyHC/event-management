@@ -1,7 +1,7 @@
 <?php
 
 $servername = "localhost";
-$username = "PuneethReddy";
+$username = "root";
 $password = "";
 $db = "csefest";
 
