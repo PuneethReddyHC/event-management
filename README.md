@@ -1,7 +1,7 @@
 > ### Any DBMS OR WEB TECHNOLOGIES (php, django, angular or react) or MachineLearning projects with installation support and code explaination for Premium contact phone: +919535688928 gmail: puneethreddy951@gmail.com
 
 # Event-site
-helps to register an users for on events conducted in college fests with simple logic with secured way
+The Amazing project that helps to register an users for on events conducted in college fests with simple logic with secured way
 
 # Installation
 
