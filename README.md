@@ -26,7 +26,7 @@ helps to register an users for on events conducted in college fests with simple 
 
 8. after creating database name click on import.
 
-9. browse the file in directory[Event-site/database/events.sql].
+9. browse the file in directory[event-management/database/events.sql].
 
 10. after importing successfully.
 
