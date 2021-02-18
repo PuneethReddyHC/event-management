@@ -11,7 +11,7 @@
           <li class="nav-item"><a href="#events" class="nav-link">events</a></li>
           <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
           
-          <li class="nav-item cta"><a href="register.php" class="nav-link"><span>Register</span></a></li>
+          <li class="nav-item cta"><a href="register.php?event_id=1" class="nav-link"><span>Register</span></a></li>
         </ul>
       </div>
     </div>

@@ -3,7 +3,7 @@ $(document).ready(function(){
 	events();
 	function events(){
 		$.ajax({
-			url	:	"action.php",
+			url	:	"backend/action.php",
 			method:	"POST",
 			data	:	{GetEvent:1},
 			success	:	function(data){
@@ -16,7 +16,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		$(".overlay").show();
 		$.ajax({
-			url : "register.php",
+			url : "backend/register.php",
 			method : "POST",
 			data : $("#signup_form").serialize(),
 			success : function(data){

@@ -77,22 +77,21 @@ INSERT INTO `event_type` (`type_id`, `type_title`) VALUES
 -- Table structure for table `participent`
 --
 
-CREATE TABLE `participent` (
-  `user_id` int(10) NOT NULL,
+
+--
+-- Dumping data for table `participent`
+--
+CREATE TABLE `participants` (
+  `p_id` int(10) NOT NULL,
+  'event_id' int(10) NOT NULL,
   `fullname` varchar(100) NOT NULL,
   `email` varchar(300) NOT NULL,
-  `password` varchar(300) NOT NULL,
   `mobile` varchar(10) NOT NULL,
   `college` varchar(300) NOT NULL,
   `branch` varchar(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `participent`
---
 
-INSERT INTO `participent` (`user_id`, `fullname`, `email`, `password`, `mobile`, `college`, `branch`) VALUES
-(1, 'puneeth reddy', 'puneethreddy951@gmail.com', '25f9e794323b453885f5181f1b624d0b', '9535688928', 'RRCE', 'CSE');
 
 --
 -- Indexes for dumped tables
@@ -113,8 +112,10 @@ ALTER TABLE `event_type`
 --
 -- Indexes for table `participent`
 --
-ALTER TABLE `participent`
-  ADD PRIMARY KEY (`user_id`);
+
+
+ALTER TABLE `participants`
+  ADD PRIMARY KEY (`p_id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -135,8 +136,10 @@ ALTER TABLE `event_type`
 --
 -- AUTO_INCREMENT for table `participent`
 --
-ALTER TABLE `participent`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+
+ALTER TABLE `participants`
+  MODIFY `p_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

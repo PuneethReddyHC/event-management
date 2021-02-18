@@ -220,7 +220,7 @@
                                        <hr>
                                        <p class='bottom-area d-flex'>
                                          <span><i class='icon-map-o'></i> Puneeth</span> 
-                                         <span class='ml-auto'><a href='register.php'>Book</a></span>
+                                         <span class='ml-auto'><a href='register.php?event_id=$event_id'>Book</a></span>
                                        </p>
                                      </div>
                                    </div>
