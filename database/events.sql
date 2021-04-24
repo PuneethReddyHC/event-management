@@ -83,7 +83,7 @@ INSERT INTO `event_type` (`type_id`, `type_title`) VALUES
 --
 CREATE TABLE `participants` (
   `p_id` int(10) NOT NULL,
-  'event_id' int(10) NOT NULL,
+  `event_id` int(10) NOT NULL,
   `fullname` varchar(100) NOT NULL,
   `email` varchar(300) NOT NULL,
   `mobile` varchar(10) NOT NULL,
