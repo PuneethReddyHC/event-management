@@ -42,7 +42,7 @@
 <h2> Projects with installation support and code explaination for Premium contact phone: +919535688928 gmail: puneethreddy951@gmail.com or visit :<a href="http://www.projectswall.com/">Projects Wall</a></h2>
 
 # Event-site
-helps to register an users for on events conducted in college fests with simple logic with secured way
+The Amazing project that helps to register an users for on events conducted in college fests with simple logic with secured way
 
 # Installation
 
@@ -57,7 +57,7 @@ helps to register an users for on events conducted in college fests with simple 
     
     ii>git clone https://github.com/PuneethReddyHC/event-management.git
     
-4. extract files in C:\\xampp\htdocs\.
+4. extract all files in C:\\xampp\htdocs\.
 
 5. open link localhost/phpmyadmin
 
@@ -65,7 +65,7 @@ helps to register an users for on events conducted in college fests with simple 
 
 7. give a database name as (eventsite) hit on create button.
 
-8. after creating database name click on import.
+8. after creating database name click on import (import sql file).
 
 9. browse the file in directory[event-management/database/events.sql].
 
