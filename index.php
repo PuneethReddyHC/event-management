@@ -8,6 +8,8 @@ include "db/connect.php";
 <html lang="en">
 <?php 
 
+echo 'fix';
+
 include "cssjs/css.php";
 
 include "includes/body.php";
