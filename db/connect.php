@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$db = "eventmgmt";
+$password = "root";
+$db = "events";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
