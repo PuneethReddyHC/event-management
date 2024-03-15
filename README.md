@@ -63,7 +63,7 @@ helps to register an users for on events conducted in college fests with simple 
 
 6. click on new at side navbar.
 
-7. give a database name as (eventsite) hit on create button.
+7. give a database name as (eventmgmt) hit on create button.
 
 8. after creating database name click on import.
 
