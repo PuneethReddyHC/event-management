@@ -28,7 +28,7 @@ if(empty($full_name)  || empty($email)  ||
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $full_name is not valid..!</b>
+				<b>this " . htmlspecialchars($full_name, ENT_QUOTES, 'UTF-8') . " is not valid..!</b>
 			</div>
 		";
 		exit();
@@ -38,7 +38,7 @@ if(empty($full_name)  || empty($email)  ||
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $email is not valid..!</b>
+				<b>this " . htmlspecialchars($email, ENT_QUOTES, 'UTF-8') . " is not valid..!</b>
 			</div>
 		";
 		exit();
@@ -47,7 +47,7 @@ if(empty($full_name)  || empty($email)  ||
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>Mobile number $mobile is not valid</b>
+				<b>Mobile number " . htmlspecialchars($mobile, ENT_QUOTES, 'UTF-8') . " is not valid</b>
 			</div>
 		";
 		exit();
