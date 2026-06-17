@@ -63,13 +63,12 @@ if(empty($full_name)  || empty($email)  ||
 	}
 	//existing email address in our database
 	
-		$sql = "INSERT INTO `participants` 
-		(`p_id`,`event_id`, `fullname`, `email`, 
-		 `mobile`,  `college`, `branch`) 
-		VALUES (NULL,'$event_id', '$full_name',  '$email', 
-		 '$mobile', '$college', '$branch')";
-		
-		if(mysqli_query($con,$sql)){
+		$stmt = $con->prepare(
+			"INSERT INTO `participants` (`p_id`,`event_id`,`fullname`,`email`,`mobile`,`college`,`branch`) VALUES (NULL,?,?,?,?,?,?)"
+		);
+		$stmt->bind_param("ssssss", $event_id, $full_name, $email, $mobile, $college, $branch);
+
+		if($stmt->execute()){
 			echo "register_success";
 			echo "<script> location.href='index.php'; </script>";
             exit;
