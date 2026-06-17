@@ -73,8 +73,8 @@ include "cssjs/css.php";
               </div>
               <?php
                 if ($_GET['event_id'] != ''){
-                  $event_id = $_GET['event_id'];
-                  echo '<input type="hidden" name="event_id" value='.$event_id.' class="form-control field-border"   required>';
+                  $event_id = htmlspecialchars($_GET['event_id'], ENT_QUOTES, 'UTF-8');
+                  echo '<input type="hidden" name="event_id" value="'.$event_id.'" class="form-control field-border" required>';
                 }
               ?>
               
